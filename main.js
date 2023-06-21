@@ -18,3 +18,12 @@ function removeElementSecondVersion(item) {
 }
 
 removeElementSecondVersion(5);
+
+function removeElementThirdVersion(array, item) {
+    const arrayRemove = array.toString().split('');
+    const filteredArray = arrayRemove.filter((number) => number != item);
+    let numberArray  = filteredArray.map((item) => parseInt(item));
+    console.log(numberArray);
+}
+
+removeElementThirdVersion(1234567, 5);
