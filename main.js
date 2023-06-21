@@ -13,8 +13,7 @@ removeElement(1, 1);
 
 function removeElementSecondVersion(item) {
     const array = [1, 2, 3, 4, 5, 6, 7];
-    const numberToRemove = item;
-    const filteredArray = array.filter((number) => number != numberToRemove);
+    const filteredArray = array.filter((number) => number != item);
     console.log(filteredArray);
 }
 
